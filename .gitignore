@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dépendances / builds
+node_modules/
+dist/
+.next/
+/out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Données M0 : aucune image ni résultat brut dans le dépôt
+spike/m0/data/
+spike/m0/out/
+spike/**/*.png
+spike/**/*.jpg
+spike/**/*.jpeg
+spike/**/*.webp
+spike/**/*.heic
+# Aucune photo de personne dans le dépôt, où qu'elle soit
+*.heic
+**/faces/
+**/characters/
+
+.DS_Store
