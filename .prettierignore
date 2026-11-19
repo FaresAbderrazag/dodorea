@@ -1,0 +1,6 @@
+docs/
+agent/
+spike/
+*.md
+package-lock.json
+.next/

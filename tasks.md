@@ -41,7 +41,8 @@
 
 ## M1 — Fondation applicative
 
-- [ ] T-101 Initialiser Next.js/TS, qualité, CI, environnements.
+- [~] T-101 Initialiser Next.js/TS, qualité, CI, environnements.
+  - 2026-11-12 : dépôt Git local ; Next.js 16.4.6 / React 19.3 / TS strict à la racine ; ESLint, Prettier, Vitest ; Node 26 LTS (`.nvmrc`) ; route `/[lang]` FR/DE/EN/AR avec `dir=rtl` pour l'arabe et redirection par `proxy.ts` ; CI GitHub Actions (format, lint, typecheck, tests, build). Vérifié sous Node 26.13.1 : format, lint, typecheck OK, 11/11 tests, build OK ; banc `spike/m0` 16/16. Reste : dépôt GitHub privé et premier passage de la CI (responsable produit) ; validation des variables d'environnement reportée à T-102 (première variable : base de données).
 - [ ] T-102 Configurer PostgreSQL/Prisma et migrations.
 - [ ] T-103 Auth parent, sessions, contrôles de propriété et tests IDOR.
 - [ ] T-104 Modèle catalogue, story versions et seed fictif FR/DE/EN/AR (dont RTL).

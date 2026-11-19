@@ -16,6 +16,7 @@
 - 2026-11-11/12 : T-002 vérifié (`docs/research/m0-openai-conditions.md`) ; adaptateur OpenAI (16/16 tests) ; premiers appels réels réussis après vérification d'organisation : ≈ 0,019 €/image, ≈ 12 s. ADR-009 (style maison 2D plat) accepté. Total dépensé ≈ 0,04 €.
 - 2026-11-12 : **benchmark M0 terminé** — 68 images, 0 erreur, 0,022 €/page, p95 22 s, notes 4/5 confirmées : **GO technique** (`docs/research/m0-benchmark-results.md`). Dépense M0 ≈ 1,52 €. En attente : ADR-004 (stratégie A, proposed) et confirmation du passage à M1.
 - 2026-11-12 : ADR-004 accepté (stratégie A) ; **M0 clôturé, M1 lancé**.
+- 2026-11-12 : T-101 en cours — application Next.js 16 initialisée (i18n 4 langues, RTL), qualité et CI en place, tout vert sous Node 26 ; reste le dépôt GitHub et le premier passage de la CI.
 
 ## Non réalisé
 
